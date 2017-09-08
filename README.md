@@ -1,5 +1,5 @@
 # ICP2017F - Introduction to Computer Programming (Fall 2017) #
- **Name:** Darcey Long 
+**Name:** Darcey Long 
 
 **UT EID:** djl2752 
 
