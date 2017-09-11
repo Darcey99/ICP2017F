@@ -6,7 +6,8 @@
    **Level:** Undergraduate - Freshman (First Year)                                                                                      
    **ICP Class Postion:** Student                                                                                                                  
    **Course Webpage:** http://www.shahmoradi.org/ICP2017F/                                                                                          
-   **Photo:** ![](https://github.com/Darcey99/ICP2017F/blob/master/Grad%20Pic.JPG)                                                                     
+   **Photo:**
+![](https://github.com/Darcey99/ICP2017F/blob/master/Grad%20Pic.JPG)                                                                     
 # Description of the Project's Content #
 This repository contains my homework, quizzes, and virtually every effort that I have made for [ICP2017F class](http://www.shahmoradi.org/ICP2017F/). The structure of the project is the following:
 * [Homework](https://github.com/Darcey99/ICP2017F/tree/master/Homework): This directory contains all my homework submissions, each of which is a folder properly named with homework number, containing the homework submission.
