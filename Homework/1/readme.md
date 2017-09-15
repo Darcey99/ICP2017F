@@ -86,20 +86,26 @@ Switched to branch 'test1'
 ```  
 
 H)  
-`` $ git checkout master
-Switched to branch 'master' ``  
+```sh  
+$ git checkout master
+Switched to branch 'master'  
+```    
 
- `` $ git merge test1
+```sh  
+$ git merge test1
 Updating 2848aa8..b37e040
 Fast-forward
  Homework/1/test.txt | 1 +
  1 file changed, 1 insertion(+)
- create mode 100644 Homework/1/test.txt ``  
-Merged test1 and master branch from the master branch.  
+ create mode 100644 Homework/1/test.txt  
+ ```  
+ Merged test1 and master branch from the master branch.  
 
 I)  
-`` $ ls
-readme.md  test.txt ``  
+```sh  
+$ ls
+readme.md  test.txt  
+```    
 The master branch now also has the test.txt file.  
 
 J)  
