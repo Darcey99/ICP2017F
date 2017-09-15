@@ -20,7 +20,9 @@ $ vim test.txt
 ```  
 
 C)  
-`` This is some example text for branch test1 ``  
+```sh  
+This is some example text for branch test1  
+```  
 
 D)  
 ```sh
