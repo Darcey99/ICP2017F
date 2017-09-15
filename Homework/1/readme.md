@@ -109,16 +109,20 @@ readme.md  test.txt
 The master branch now also has the test.txt file.  
 
 J)  
-`` $ git merge test2
+```sh  
+$ git merge test2
 Auto-merging Homework/1/test.txt
 CONFLICT (add/add): Merge conflict in Homework/1/test.txt
-Automatic merge failed; fix conflicts and then commit the result. ``  
+Automatic merge failed; fix conflicts and then commit the result.  
+```    
 The error arises because test.txt was not staged and committed in the test2 branch.  
 
 K)  
-`` $ git checkout test2
+```sh  
+$ git checkout test2
 error: you need to resolve your current index first
-Homework/1/test.txt: needs merge ``  
+Homework/1/test.txt: needs merge  
+```
 
 L) 
 `` $ git status
