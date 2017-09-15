@@ -1,12 +1,23 @@
 A)  
-`` $ git branch test1 ``   
-`` $ git branch test2 ``
+```sh  
+$ git branch test1  
+```  
+```sh  
+$ git branch test2  
+```
     
-B)  
-`` $ git checkout test1 ``  
-`` Switched to branch 'test1'`` 
+B)    
+```sh  
+$ git checkout test1  
+```  
 
-`` $ vim test.txt ``  
+```sh  
+Switched to branch 'test1'  
+``` 
+
+```   
+$ vim test.txt  
+```  
 
 C)  
 `` This is some example text for branch test1 ``  
