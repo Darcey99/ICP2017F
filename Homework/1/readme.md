@@ -51,27 +51,39 @@ readme.md
 No, I do not see test.txt anymore because I am now in a different branch and I have not merged the branches.  
 
 F)  
-`` $ vim test.txt ``  
-`` This is some example text for branch test2. ``  
+```sh  
+$ vim test.txt  
+```    
+```sh  
+This is some example text for branch test2.  
+```    
 
-G)  
-`` $ git checkout test1
+G)    
+```sh    
+$ git checkout test1
 error: The following untracked working tree files would be overwritten by checkout:
         Homework/1/test.txt
 Please move or remove them before you switch branches.
-Aborting ``  
+Aborting  
+```    
 
-`` $ git add test.txt
+```sh  
+$ git add test.txt
 warning: LF will be replaced by CRLF in Homework/1/test.txt.
-The file will have its original line endings in your working directory. ``  
+The file will have its original line endings in your working directory.  
+```    
 
-`` $ git commit
+```sh  
+$ git commit
 [test2 bcaedde] Test.txt added
  1 file changed, 1 insertion(+)
- create mode 100644 Homework/1/test.txt ``  
+ create mode 100644 Homework/1/test.txt 
+ ```    
 
-`` $ git checkout test1
-Switched to branch 'test1' ``  
+```sh  
+$ git checkout test1
+Switched to branch 'test1'  
+```  
 
 H)  
 `` $ git checkout master
