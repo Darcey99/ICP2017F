@@ -31,17 +31,23 @@ warning: LF will be replaced by CRLF in Homework/1/test.txt.
 The file will have its original line endings in your working directory.   
 ```  
   
-`` $ git commit
+```sh  
+$ git commit
 [test1 b37e040] Test.txt file created
  1 file changed, 1 insertion(+)
- create mode 100644 Homework/1/test.txt ``  
+ create mode 100644 Homework/1/test.txt  
+ ```  
 
 E)  
-`` $ git checkout test2
-Switched to branch 'test2' ``  
+```sh  
+$ git checkout test2
+Switched to branch 'test2'  
+```  
 
-``$ ls
-readme.md ``  
+```sh  
+$ ls
+readme.md   
+```    
 No, I do not see test.txt anymore because I am now in a different branch and I have not merged the branches.  
 
 F)  
