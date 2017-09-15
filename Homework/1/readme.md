@@ -12,9 +12,11 @@ C)
 `` This is some example text for branch test1 ``  
 
 D)  
-`` $ git add test.txt
-warning: LF will be replaced by CRLF in Homework/1/test.txt.
-The file will have its original line endings in your working directory. ``  
+```sh
+$ git add test.txt  
+warning: LF will be replaced by CRLF in Homework/1/test.txt.  
+The file will have its original line endings in your working directory.   
+```  
   
 `` $ git commit
 [test1 b37e040] Test.txt file created
