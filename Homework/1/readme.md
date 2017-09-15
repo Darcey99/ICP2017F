@@ -125,7 +125,8 @@ Homework/1/test.txt: needs merge
 ```
 
 L) 
-`` $ git status
+```sh  
+$ git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
@@ -139,14 +140,18 @@ Unmerged paths:
 
         both added:      test.txt
 
-no changes added to commit (use "git add" and/or "git commit -a") ``
+no changes added to commit (use "git add" and/or "git commit -a")  
+```  
 This error occurs because I haven't pushed my commits.  
 
-M) 
-`` vim test.txt ``  
+M)  
+```sh  
+vim test.txt  
+```    
 
 N)  
-`` $ git status
+```sh  
+$ git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
@@ -160,63 +165,93 @@ Unmerged paths:
 
         both added:      test.txt
 
-no changes added to commit (use "git add" and/or "git commit -a") ``  
+no changes added to commit (use "git add" and/or "git commit -a")  
+```    
 
-`` $ git add test.txt ``  
+```sh  
+$ git add test.txt  
+```    
   
-`` $ git commit
-[master 1bdb5a5] Merge branch 'test2' ``  
+```sh  
+$ git commit
+[master 1bdb5a5] Merge branch 'test2'  
+```  
 
-`` $ git checkout test2
-Switched to branch 'test2' ``  
+```sh  
+$ git checkout test2
+Switched to branch 'test2'  
+```    
 
 O)  
-`` $ git branch -d test1
+```sh  
+$ git branch -d test1
 error: The branch 'test1' is not fully merged.
-If you are sure you want to delete it, run 'git branch -D test1'. ``  
+If you are sure you want to delete it, run 'git branch -D test1'.  
+```    
 
 P)  
-`` $ git checkout master
-Switched to branch 'master' ``  
+```sh  
+$ git checkout master
+Switched to branch 'master'  
+```    
 
-`` $ git branch -d test1
-Deleted branch test1 (was b37e040). ``  
+```sh  
+$ git branch -d test1
+Deleted branch test1 (was b37e040).  
+```    
 
-`` $ git branch
+```sh  
+$ git branch
 * master
-  test2 ``  
+  test2  
+```    
 
 Q)  
 When I tried deleting test1 from the test2 branch, it wouldn't allow me since the branches hadn't been merged. Since the master branch and test1 had been merged, git allowed me to delete test1.  
 
 R)  
-`` $ git checkout test2
-Switched to branch 'test2' ``  
+```sh  
+$ git checkout test2
+Switched to branch 'test2'  
+```    
   
-`` $ git branch -d test2
-error: Cannot delete branch 'test2' checked out at 'C:/Users/darce/git/ICP2017F' ``  
+```sh    
+$ git branch -d test2
+error: Cannot delete branch 'test2' checked out at 'C:/Users/darce/git/ICP2017F'  
+```      
 
 S)  
-`` $ git checkout master
-Switched to branch 'master' ``  
+```sh  
+$ git checkout master
+Switched to branch 'master'  
+```    
 
-`` $ git branch -d test2
-Deleted branch test2 (was bcaedde). ``  
+```sh  
+$ git branch -d test2
+Deleted branch test2 (was bcaedde).  
+```    
 
-`` $ git branch
-* master ``  
+```sh  
+$ git branch
+* master  
+```    
 
 T)  
-`` $ git add -A ``  
+```sh  
+$ git add -A  
+```    
 
-`` $ git commit
+```sh  
+$ git commit
 On branch master
 Your branch is ahead of 'origin/master' by 3 commits.
   (use "git push" to publish your local commits)
 
-nothing to commit, working tree clean ``  
+nothing to commit, working tree clean  
+```    
  
-`` $ git push
+```sh  
+$ git push
 Counting objects: 18, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (12/12), done.
@@ -224,7 +259,8 @@ Writing objects: 100% (18/18), 1.46 KiB | 298.00 KiB/s, done.
 Total 18 (delta 5), reused 0 (delta 0)
 remote: Resolving deltas: 100% (5/5), completed with 1 local object.
 To https://github.com/Darcey99/ICP2017F.git
-   dfa4200..951ad1c  master -> master ``     
+   dfa4200..951ad1c  master -> master  
+```     
 
   
 
