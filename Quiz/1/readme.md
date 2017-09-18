@@ -1,3 +1,3 @@
 1) A,D   
-2) C  
+2) A,B,C    
 3) git help
