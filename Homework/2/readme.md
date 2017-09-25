@@ -1,4 +1,5 @@
-1)  
+**1)**  
+          
 ```sh     
 >> a = 1  
 
@@ -106,7 +107,18 @@ makes a cell array with 4 seperate cells using the values assigned to the variab
   g         1x4               456  cell                
   h         1x4               491  cell                
   ```  
-  lists the names, sizes, and types of the variables d, e, f, g, and h
+  lists the names, sizes, and types of the variables d, e, f, g, and h    
+                                                                                                                   
+                                                                                                                                                                                                                       
+    
+  **2)**    
+  If you go beyond the range of a particular type, the answer will revert back to the lowest or highest possible integer of that type to stay within its range. For example, if you type a higher integer like 128 into **int8**, the answer you get is 127 because that is the highest possible number for **int8**. If you type a small integer like -129 into **int8**, the answer you get is -127 because that is the lowest possible number for **int8**.  
+  
+ Intmin for **int16** = -32,768   
+ Intmax for **int16** = +32,767  
+ 
+ Intmin for **int32** = -2,147,483,648  
+ Intmax for **int32** = +2,147,483,647
 
 
      
