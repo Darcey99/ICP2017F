@@ -112,13 +112,89 @@ makes a cell array with 4 seperate cells using the values assigned to the variab
                                                                                                                                                                                                                        
     
   **2)**    
-  If you go beyond the range of a particular type, the answer will revert back to the lowest or highest possible integer of that type to stay within its range. For example, if you type a higher integer like 128 into **int8**, the answer you get is 127 because that is the highest possible number for **int8**. If you type a small integer like -129 into **int8**, the answer you get is -127 because that is the lowest possible number for **int8**.  
+  If you go beyond the range of a particular type, the answer will revert back to the lowest or highest possible integer of that type to stay within its range. For example, if you type a higher integer like 128 into **int8**, the answer you get is 127 because that is the highest possible integer for **int8**. If you type a small integer like -129 into **int8**, the answer you get is -127 because that is the lowest possible integer for **int8**.  
   
  Intmin for **int16** = -32,768   
  Intmax for **int16** = +32,767  
  
  Intmin for **int32** = -2,147,483,648  
- Intmax for **int32** = +2,147,483,647
+ Intmax for **int32** = +2,147,483,647  
+   
+     
+ **3)**  
+ ```sh  
+ >> 1\2
+
+ans =
+
+     2  
+```  
+You get an answer of 2  
+```sh  
+>> 1\2
+
+ans =
+
+     2  
+```  
+You get an answer of 0.5000  
+```sh  
+
+>> int8(1/2)
+
+ans =
+
+  int8
+
+   1  
+```  
+You get an answer of 1  
+```sh  
+>> int8(1/3)
+
+ans =
+
+  int8
+
+   0  
+```  
+You get an answer of 0  
+```sh  
+>> -5^2
+
+ans =
+
+   -25
+```  
+You get an answer of -25  
+```sh  
+
+>> (-5)^2
+
+ans =
+
+    25  
+```  
+You get an answer of 25  
+```sh  
+>> 10-6/2
+
+ans =
+
+     7  
+```  
+You get an answer of 7  
+```sh  
+
+>> 5*4/2*3
+
+ans =
+
+    30
+```  
+You get an answer of 30  
+
+
 
 
      
