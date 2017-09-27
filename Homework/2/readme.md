@@ -194,7 +194,121 @@ ans =
 ```  
 You get an answer of 30  
 
+**4a)**  
+```sh  
+>> a = [1,0;2,1]
 
+a =
+
+     1     0
+     2     1
+
+>> b = [-1,2;0,1]
+
+b =
+
+    -1     2
+     0     1
+
+>> c = [3;2]
+
+c =
+
+     3
+     2
+
+>> d = 5
+
+d =
+
+     5  
+```  
+  
+**4b)**  
+1.  
+```sh  
+>> a + b
+
+ans =
+
+     0     2
+     2     2
+```  
+matrices a and b were added together  
+2.  
+```sh  
+>> a .* b
+
+ans =
+
+    -1     0
+     0     1  
+ ```  
+matrices a and b were multiplied together element by element   
+3.  
+```sh  
+ 
+>> a * b
+
+ans =
+
+    -1     2
+    -2     5  
+ ```  
+ matrices a and b were multiplied together  
+4.  
+```sh  
+ >> a * c
+
+ans =
+
+     3
+     8  
+```  
+matrices a and c were mutiplied together  
+5.  
+```sh  
+>> a + c
+
+ans =
+
+     4     3
+     4     3  
+```  
+matrices a and c were added together  
+6.  
+```sh  
+
+>> a + d
+
+ans =
+
+     6     5
+     7     6  
+```    
+matrices a and d were added together  
+7.  
+```sh  
+>> a .* d
+
+ans =
+
+     5     0
+    10     5  
+ ```  
+ matrices a and d were multiplied together element by element  
+8.  
+```sh  
+>> a * d
+
+ans =
+
+     5     0
+    10     5  
+```  
+matrices a and d were multiplied together  
+  
+**5)**
 
 
      
