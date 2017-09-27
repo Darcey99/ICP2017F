@@ -308,7 +308,19 @@ ans =
 ```  
 matrices a and d were multiplied together  
   
-**5)**
+**5)**  
+```sh  
+>> a = [2 2 2];
+>> diag(a)
+
+ans =
+
+     2     0     0
+     0     2     0
+     0     0     2  
+```  
+```sh  
+
 
 
      
