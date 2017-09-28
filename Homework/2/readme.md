@@ -310,7 +310,9 @@ matrices a and d were multiplied together
   
 **5)**  
 ```sh  
->> a = [2 2 2];
+>> a = [2 2 2];  
+```  
+```sh  
 >> diag(a)
 
 ans =
@@ -319,8 +321,23 @@ ans =
      0     2     0
      0     0     2  
 ```  
+  
+**7)**  
+```sh  
+>> mkdir mynewdir  
+```  
+When you run myscript.m, a graph appears  
+  
+**8)**  
+I get an error message that says:
 ```sh  
-
+'myscript' is not found in the
+current folder or on the MATLAB path,
+but exists in:
+    C:\Users\darce\Matlab\mynewdir\HW
+    2
+```  
+because this script was saved in a different folder and therefore does not exist in the folder I am currently in 
 
 
      
