@@ -1,4 +1,3 @@
-
 a2 = 2; % name of a variable can't start with a number
 b = 1; % b must be defined 
 a1 = b;
@@ -26,5 +25,7 @@ wolf = fox == true;
 Persian = ['Persian' ' is ' 'a' ' human ' 'language'];
 Spanish = {'Spanish' 'is ' ' another' 'language'};
 disp([Persian(1:7) 'is not the same as' Spanish(1)]); 
+  
+    
     
 **Persian is an array of characters and Spanish is an array of strings**
