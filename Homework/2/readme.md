@@ -349,7 +349,7 @@ ans =
      0     0     2  
 ```  
 **6)**  
-
+In "script_full_of_errors_fixed" file
   
 **7)**  
 ```sh  
