@@ -80,4 +80,15 @@ x1 = (-b + f)/(2*a);
 x2 = (b + f)/(2*a);
 end  
 ```  
-8) d = @(c) (integral(@(x) (x.^2 + c*x + 1),a,b));
+8) d = @(c) (integral(@(x) (x.^2 + c*x + 1),a,b));  
+  
+9)  
+```sh  
+function x = getFac(n)   
+     o = 1;
+     if(n>1)
+          o=n*getFac(n-1);
+     end
+     x=o;
+end
+
