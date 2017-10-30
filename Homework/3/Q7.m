@@ -1,3 +1,5 @@
+Completed with Dr.Shahmoradi in class
+
 function outLogical = isPrime(n)
   outLogical = 'true';
   divisor = 2;
