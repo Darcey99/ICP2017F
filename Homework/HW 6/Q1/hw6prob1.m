@@ -93,7 +93,7 @@ cbar.FontSize = colorbarFontSize;     % set the fontsize of the colorbar
 sliceNumber = 0;
 for irow = nrow:-1:1
     for icol = 1:ncol
-        sliceNumber = sliceNumber + 1
+        sliceNumber = sliceNumber + 1;
         subPlot = axes( 'position', [ ... set the position of the axes for each subplot
                                       (icol-1)*(subplotInterspace+subplotWidth) + mainPlotMarginLeft ...
                                       (irow-1)*(subplotInterspace+subplotHeight) + mainPlotMarginBottom ...
